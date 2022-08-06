@@ -1,0 +1,178 @@
+/* main div to show the color, width and size */
+
+#app {
+    width: 400px;
+    height: auto;
+    background-color: rgb(75, 167, 204);
+    box-shadow: 0px 2px 0px 5px rgb(130, 158, 172);
+    border: 4px solid rgb(165, 158, 158);
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* form width */
+
+.form-select {
+    width: 75px;
+}
+
+
+/* submit button margin */
+
+#submitbtn {
+    margin-top: 10px;
+}
+
+
+/* list width and margin */
+
+#li {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+/* close button to remove list item */
+
+.close {
+    height: 40px;
+    width: 30px;
+    color: rgb(42, 130, 189);
+    display: inline;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+
+/* charnge the color of tag h1 */
+
+h1 {
+    color: aliceblue;
+    width: auto;
+    background-color: rgb(74, 156, 129);
+}
+
+
+/* input to change redius */
+
+input {
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px 5px rgb(45, 63, 68);
+}
+
+
+/* image size and margin */
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 67%;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 5px 5px rgb(93, 160, 194);
+    cursor: pointer;
+}
+
+
+/* current time to show size and color */
+
+#Current-time {
+    background-color: rgb(108, 145, 132);
+    font-size: 26px;
+    color: white;
+    width: 150px;
+    margin-left: 110px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px 5px rgb(45, 63, 68);
+}
+
+
+/* sentence color and fonst size */
+
+p {
+    background-color: rgb(147, 173, 164);
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    margin-left: 110px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px 5px rgb(45, 63, 68);
+}
+
+
+/* list to set color and width */
+
+li {
+    background-color: rgb(86, 141, 158);
+    list-style: none;
+    box-shadow: 0px 3px 5px 5px rgb(45, 63, 68);
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* set alram button  */
+
+.set {
+    box-shadow: 0px 3px 5px 5px rgb(57, 68, 75);
+    background-color: rgb(35, 119, 56);
+    border-radius: 5px;
+}
+
+
+/* list hover to change color */
+
+li:hover {
+    font-size: 23px;
+    color: aliceblue;
+}
+
+
+/* image to change size and width */
+
+.clock {
+    width: 100px;
+    height: 100px;
+    border-radius: 67%;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 5px 5px rgb(93, 160, 194);
+    cursor: pointer;
+}
+
+
+/* On screens that are 480px wide or less, the background color is blue */
+
+@media screen and (min-width: 480px) {
+    #app {
+        margin-left: 400px;
+    }
+}
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+
+@media screen and (max-width: 992px) {
+    #app {
+        background-color: rgb(150, 165, 146);
+        color: white;
+        margin-left: 270px;
+    }
+}
+
+
+/* On screens that are 600px wide or less, the background color is olive */
+
+@media screen and (max-width: 600px) {
+    #app {
+        background-color: rgb(100, 171, 173);
+        color: white;
+        margin-left: 150px;
+    }
+}

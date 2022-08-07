@@ -60,7 +60,7 @@ function myFunction() {
         }
         if (hr == hour && mi == minutes && sec == seconds && zone == zone1) {
             sound1.play();
-            console.log(sound1)
+            // console.log(sound1)
                 // var a = alert('It time to Complete your task ')
 
         }
@@ -98,3 +98,14 @@ function myFunction() {
 
     }
 }
+
+
+
+// practice with  js
+class User {
+    ['say' +'hi'](){
+        alert('Hi');
+    }
+}
+
+new User();
